@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.contianer {
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    margin: 50px auto;
+    border-radius: 20px;
+    position: relative;
+    background-color: #ddd;
+}
+img {
+    height: 100%;
+    border-radius: 25px;
+    transition: 2.5s;
+    margin: 0 1%;
+}
+.img1 {
+    width: 79%;
+}
+.img2 {
+    width: 7%;
+}
+.img3 {
+    width: 7%;
+}
+span {
+    font-size: 26px;
+    color: rgb(0, 55, 128);
+    font-weight: bold;
+    position: absolute;
+    left: 278px;
+    bottom: 20px;
+    letter-spacing: 5px;
+    display: none;
+}

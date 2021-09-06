@@ -1,0 +1,23 @@
+body {
+    background-color: red;
+}
+.container {
+    justify-content: center;
+    display: flex;
+    height: 600px;
+    align-items: center;
+    
+}
+button {
+    color: white;
+    background-color: darkslategray;
+    font-size: 20px;
+    border: 2px solid transparent;
+    outline: salmon;
+
+}
+p {
+    font-size: 26px;
+    color: white;
+    text-transform: uppercase;
+}

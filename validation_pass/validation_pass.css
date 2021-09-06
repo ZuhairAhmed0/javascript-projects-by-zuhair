@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    height: 100vh;
+}
+#my_pass{
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #ddd;
+    border-style: solid;
+    width: 200px;
+    padding: 5px;
+    outline: none;
+    display: block;
+}

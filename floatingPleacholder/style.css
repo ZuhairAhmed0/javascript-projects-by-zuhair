@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('bacfull.jpg') no-repeat center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    width: 50%;
+    height: 400px;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.295);
+    padding: 50px 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 1px 1px 42px -5px rgba(221, 221, 221, 0.678) , -1px -1px 5px rgba(231, 193, 67, 0.493) ;
+    color: rgb(12, 12, 12);
+}
+input {
+    display: block;
+    padding: 7px 20px; 
+    width: 90%;
+    height: 28px;
+    border-radius: 10px;
+    background:  rgba(201, 187, 187, 0.664); 
+    border: 2px solid aqua;
+    margin: 40px 0;
+    box-shadow: 1px 1px 5px #ddd;
+    outline: 0;
+
+}
+div {
+    position: relative;
+}
+label {
+    position: absolute; 
+    left: 23px;
+    top: 13px;
+    font-size: 15px;
+    color: #444;
+    font-weight: normal;
+    transition: all 1s;
+}
+.labFoc{
+    top: -15px;
+    left: 18px;
+    color: #cc00ff;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+input[type='submit'] {
+    background-color: aqua;
+    width: 30%;
+    padding: 5px;
+    font-size: 20px;
+    height: 45px;
+    color: rgb(204, 0, 255);
+    margin: auto;
+    font-weight: bold;
+    text-transform: capitalize;
+}

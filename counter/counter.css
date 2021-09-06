@@ -1,0 +1,9 @@
+.chlid {
+    text-align: center;
+    background: aqua;
+    padding: 50px;
+}
+button {
+    margin: 5px auto;
+    display: block;
+}
